@@ -27,7 +27,7 @@ print("Answer to Part 1 Number 1: ")
 print( c.execute(sqlCommands[30]).fetchall())
 
 #I can't get #2 to work because FULL OUTER JOINS aren't supported in sqllite
-#I can't get #3 to work in general (take off points for it in part 1, not thi part!)
+
 
 
 print("Answer to Part 1 Number 4: ")
@@ -36,7 +36,7 @@ print(c.execute(sqlCommands[33]).fetchall())
 print("Answer to Part 1 Number 5: ")
 print(c.execute(sqlCommands[34]).fetchall())
 
-#I get how to go about this assignment but my queries are wrong in part 1 :(
+
 c.close()
 conn.commit()
 conn.close()
